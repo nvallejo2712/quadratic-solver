@@ -1,0 +1,98 @@
+html * {
+
+
+    box-sizing: border-box;
+    font-family: roboto;
+    font-weight: 300;
+  
+}
+body{
+    background: rgba(0,77,145,1);
+background: -moz-linear-gradient(left, rgba(0,77,145,1) 0%, rgba(11,2,74,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,77,145,1)), color-stop(100%, rgba(11,2,74,1)));
+background: -webkit-linear-gradient(left, rgba(0,77,145,1) 0%, rgba(11,2,74,1) 100%);
+background: -o-linear-gradient(left, rgba(0,77,145,1) 0%, rgba(11,2,74,1) 100%);
+background: -ms-linear-gradient(left, rgba(0,77,145,1) 0%, rgba(11,2,74,1) 100%);
+background: linear-gradient(to right, rgba(0,77,145,1) 0%, rgba(11,2,74,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004d91', endColorstr='#0b024a', GradientType=1 );
+font-family: 'Roboto', sans-serif;
+padding: 0px;
+margin: 0px;
+}
+
+span{
+    font-weight: 400;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.container-quadratic {
+    max-width: 900px;
+    background: #ffffffc7;
+    padding: 1em;
+    text-align: center;
+   
+}
+
+/*titulos*/
+
+.container-quadratic h1{
+    border-bottom: 1px solid white;
+    margin: 1em;
+}
+/*ecuacion*/
+
+.equation {
+    font-size: 1.5em;
+    padding: 0.5em;
+}
+
+
+/*resultados*/
+.results p{
+    display: inline;
+}
+
+
+/*inputs*/
+
+.abc-input{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    height: 2em;
+    margin: 2em; 
+
+    
+}
+
+.abc-input p{
+    margin:0;
+}
+
+.abc-input input ,button{
+    width: 2em;
+    height: 2em;
+}
+.abc-input input{
+    margin: 0 0.5em;
+}
+
+.abc-input button{
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    border: none;
+}
+.abc-input button:hover{
+    transition: 0.3s;
+    background: #4242ff;
+    color: white;
+}
